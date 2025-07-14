@@ -2,8 +2,8 @@ import mysql.connector as msc
 
 conn = msc.connect(
     host="localhost",
-    user="root",
-    password="0mm...123",
+    user="Your_Username",
+    password="Your_Password",
     database="quizdb"
 )
 print("--------------")
