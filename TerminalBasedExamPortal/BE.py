@@ -1,16 +1,10 @@
 import mysql.connector as msc
 from openpyxl import Workbook
 
-wb = Workbook()
-ws = wb.active
-ws.append(["Name", "Age", "City"])
-ws.append(["Shaurya", 17, "Pune"])
-wb.save("output.xlsx")
-
 conn = msc.connect(
     host="localhost",
-    user="root",
-    password="0mm...123",
+    user="Your_Username",
+    password="Your_Password",
     database="quizdb"
 )
 
