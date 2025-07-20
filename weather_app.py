@@ -6,7 +6,7 @@ st.write("Type a city and press Enter.")
 
 city = st.text_input("Enter city name")
 
-api_key = "6102a2872d9b4c019df191531252007"  # replace with your actual key
+api_key = "***"  # replace with your actual key
 
 if city:  # this block runs only if city is not empty
     url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}"
